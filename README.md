@@ -1,7 +1,7 @@
 # Bash Scripts for Fornax Deployment
 ### A: Cloud Core Node 
 ### B: Edge Node with Control Plane 
-### C: Edge Worker node
+### C: Edge Worker Node
 ### 1. Generate ssh key in Edge Node with Control Plane (node-b) and copy ssh key ID to Cloud Core Node (node-a) & Edge Worker node (node-c) :
        ssh-keygen
        ssh-copy-id (node-a IP)
