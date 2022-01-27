@@ -15,39 +15,40 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
 
 ## Do the following steps in all the three machines for smoothly running the bash scripts:
 
-### Switch to root user:
-    sudo -i
+#### 1) Switch to root user:
+     sudo -i
     
-### Edit the sshd file to permit copy files within the Machines.
-    vi /etc/ssh/sshd_config
+#### 2) Edit the sshd file to permit copy files within the Machines.
+     vi /etc/ssh/sshd_config
     
-### Remove comment '#' and modify the line 'PermitRootLogin yes' at line 32 and also modify line 56 to 'PasswordAuthentication yes' by removing comment.
+#### 3) Remove comment '#' and modify the line 'PermitRootLogin yes' at line 32 and also modify line 56 to 'PasswordAuthentication yes' by removing comment.
 
    ![image](https://user-images.githubusercontent.com/95343388/151365629-77bf68bf-fce2-4303-8e7e-4fd68c0a7d0e.png)
    
-### Now reload the sshd service
-     systemctl reload sshd.service
-### Now set the root password for all the machines
-     passwd root
+#### 4) Now reload the sshd service
+      systemctl reload sshd.service
+     
+#### 5) Now set the root password for all the machines
+      passwd root
      
    ![image](https://user-images.githubusercontent.com/95343388/151366134-be0a5fa0-9800-4d5c-981b-45c3fcf8b902.png)
 
-### 3. Run the Scripts:
+#### 6) Run the Scripts:
        sudo bash cloud-core.sh (for machine-1)
        sudo bash edge-node-control-plane.sh (for machine 2)  (run the script only after successfully running the machine-1 script)
        sudo bash worker-node.sh (for machine 3)  (run the script only after successfully running the machine-2 script)
 
-### 2. Input the IP's of Machine 1, Machine 2 and Machine 3  
+### 7) Input the IP's of Machine 1, Machine 2 and Machine 3  
        
    ![image](https://user-images.githubusercontent.com/95343388/151364344-0f45fa11-7ffe-414b-a2b4-2740d64b881d.png)
 
-### 4. Verify the Edgecluster in 'Cloud Core Node' (Machine-1):
+### 8) Verify the Edgecluster in 'Cloud Core Node' (Machine-1):
        kubectl get edgecluster
        
    ![image](https://user-images.githubusercontent.com/95343388/151367806-e28dd3be-3cdd-4211-95b8-c3085dedc5c6.png)
 
            
-### 5. To see Cloudcore & Edgecore logs:
+### 9) To see Cloudcore & Edgecore logs:
        cd $HOME/go/src/github.com/fornax
        cat cloudcore.logs
        cat edgecore.logs
