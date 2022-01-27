@@ -5,13 +5,16 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
 
 
 ### Virtual Machine Configuration 
-•	**3 Ubuntu 18.04 VMs, one for cloud-core, two for edge-core.**   
+•	**3 Ubuntu 18.04 VMs, one for cloud-core, two for edge-core.   
+•     Machine 1: Cloud Core Node
+      Machine 2: Edge Node with Control Plane 
+      Machine 3: Edge Worker Node**
 •	Open the port of 10000 and 10002 in the security group of the cloud-core machine and edge-core machine   
 •	16 GB RAM, 16 vCPUs, 128 GB storage.    
 
-### Machine 1: Cloud Core Node 
-### Machine 2: Edge Node with Control Plane 
-### Machine 3: Edge Worker Node
+#### Machine 1: Cloud Core Node 
+#### Machine 2: Edge Node with Control Plane 
+#### Machine 3: Edge Worker Node
 
 ## Do the following steps in all the three machines for smoothly running the bash scripts:
 
@@ -44,8 +47,9 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
 ### 4. Verify the Edgecluster in 'Cloud Core Node' (Machine-1):
        kubectl get edgecluster
        
-       
-       
+   ![image](https://user-images.githubusercontent.com/95343388/151367806-e28dd3be-3cdd-4211-95b8-c3085dedc5c6.png)
+
+           
 ### 5. To see Cloudcore & Edgecore logs:
        cd $HOME/go/src/github.com/fornax
        cat cloudcore.logs
