@@ -13,7 +13,9 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
 ### Machine 2: Edge Node with Control Plane 
 ### Machine 3: Edge Worker Node
 
-## Do the following in all the three machines:
+## Do the following steps in all the three machines for smoothly running the bash scripts:
+
+### Switch to root user:
     sudo -i
     
 ### Edit the sshd file to permit copy files within the Machines.
