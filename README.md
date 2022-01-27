@@ -41,8 +41,10 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
        
    ![image](https://user-images.githubusercontent.com/95343388/151364344-0f45fa11-7ffe-414b-a2b4-2740d64b881d.png)
 
-### 4. Verify the Edgecluster in 'Cloud Core Node' (Node-A):
+### 4. Verify the Edgecluster in 'Cloud Core Node' (Machine-1):
        kubectl get edgecluster
+       
+       
        
 ### 5. To see Cloudcore & Edgecore logs:
        cd $HOME/go/src/github.com/fornax
