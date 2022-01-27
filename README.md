@@ -38,17 +38,17 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
        sudo bash edge-node-control-plane.sh (for machine 2)  (run the script only after successfully running the machine-1 script)
        sudo bash worker-node.sh (for machine 3)  (run the script only after successfully running the machine-2 script)
 
-### 7) Input the IP's of Machine 1, Machine 2 and Machine 3  
+#### 7) Input the IP's of Machine 1, Machine 2 and Machine 3  
        
    ![image](https://user-images.githubusercontent.com/95343388/151364344-0f45fa11-7ffe-414b-a2b4-2740d64b881d.png)
 
-### 8) Verify the Edgecluster in 'Cloud Core Node' (Machine-1):
+#### 8) Verify the Edgecluster in 'Cloud Core Node' (Machine-1):
        kubectl get edgecluster
        
    ![image](https://user-images.githubusercontent.com/95343388/151367806-e28dd3be-3cdd-4211-95b8-c3085dedc5c6.png)
 
            
-### 9) To see Cloudcore & Edgecore logs:
+#### 9) To see Cloudcore & Edgecore logs:
        cd $HOME/go/src/github.com/fornax
        cat cloudcore.logs
        cat edgecore.logs
