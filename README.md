@@ -1,7 +1,7 @@
 # Edge Cluster Multi-Layer Setup using Bash Scripts  
 
 ### Abstract
-The purpose of this document is to **automate** to setup Cloud core and Edge core , and describe the each step to create virtual machine setup the port number, install kubernetes, GoLang, and so on **USING BASH SCRIPTS**. Running Cloud core and Edge core and deployed mission and task to Edge node. Improve the Edge computing. This Cloud and Edge design is derived from cloud end to edge end for Edge System Functional Description and the Setup Requirements Specification. The intended user of this program is the edge computing user.
+The purpose of this document is to **AUTOMATE setup of Cloud core and Edge core** , and describe the each step to create virtual machine setup the port number, install kubernetes, GoLang, and so on **USING BASH SCRIPTS**. Running Cloud core and Edge core and deployed mission and task to Edge node. Improve the Edge computing. This Cloud and Edge design is derived from cloud end to edge end for Edge System Functional Description and the Setup Requirements Specification. The intended user of this program is the edge computing user.
 
 
 ### Virtual Machine Configuration 
