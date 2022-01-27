@@ -5,7 +5,7 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
 
 
 ### Virtual Machine Configuration 
-•	Ubuntu 18.04, one for cloud-core, two for edge-core.   
+•	**3 Ubuntu 18.04 VMs, one for cloud-core, two for edge-core.**   
 •	Open the port of 10000 and 10002 in the security group of the cloud-core machine and edge-core machine   
 •	16 GB RAM, 16 vCPUs, 128 GB storage.    
 
