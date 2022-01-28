@@ -32,7 +32,8 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
       passwd root
      
    ![image](https://user-images.githubusercontent.com/95343388/151366134-be0a5fa0-9800-4d5c-981b-45c3fcf8b902.png)
-
+   
+   
 #### 6) Run the Scripts:
        sudo bash cloud-core.sh                 (Run in machine-1)
        sudo bash edge-node-control-plane.sh    (Run in machine 2)  (run the script only after successfully running the machine-1 script)
