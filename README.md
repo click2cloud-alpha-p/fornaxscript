@@ -18,17 +18,17 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
 #### 1) Switch to root user:
      sudo -i
     
-#### 2) Edit the sshd file to permit copy files within the Machines.
+#### 2) Edit the sshd file to permit copy files within the Machines:
      vi /etc/ssh/sshd_config
     
-#### 3) Remove comment '#' and modify the line 'PermitRootLogin yes' at line 32 and also modify line 56 to 'PasswordAuthentication yes' by removing comment in 'sshd_config' file.
+#### 3) Remove comment '#' and modify the line 'PermitRootLogin yes' at line 32 and also modify line 56 to 'PasswordAuthentication yes' by removing comment in 'sshd_config' file:
 
    ![image](https://user-images.githubusercontent.com/95343388/151365629-77bf68bf-fce2-4303-8e7e-4fd68c0a7d0e.png)
    
-#### 4) Now reload the sshd service
+#### 4) Now reload the sshd service:
       systemctl reload sshd.service
      
-#### 5) Now set the similar root password for all the machines
+#### 5) Now set the similar root password for all the machines:
       passwd root
  
    ![image](https://user-images.githubusercontent.com/95343388/151366134-be0a5fa0-9800-4d5c-981b-45c3fcf8b902.png)
@@ -39,7 +39,7 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
        sudo bash edge-node-control-plane.sh    (Run in machine 2)  (run the script only after successfully running the machine-1 script)
        sudo bash worker-node.sh                (Run in machine 3)  (run the script only after successfully running the machine-2 script)
 
-#### 7) Input the Private IP's of Machine 1, Machine 2 and Machine 3  
+#### 7) Input the Private IP's of Machine 1, Machine 2 and Machine 3:
        
    ![image](https://user-images.githubusercontent.com/95343388/151502797-444c6570-8efe-45f4-9e0f-f8479c6c4a20.png)
 
