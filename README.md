@@ -1,10 +1,17 @@
 # Edge Cluster Multi-Layer Setup using Bash Scripts  
 
+
+
 ### Abstract
+
+
 The purpose of this document is to **automate setup of Cloud core and Edge core** , and install kubernetes, GoLang, and so on **using bash scripts**. Running Cloud core and Edge core and deployed mission and task to Edge node. Improve the Edge computing. This Cloud and Edge design is derived from cloud end to edge end for Edge System Functional Description and the Setup Requirements Specification. The intended user of this program is the edge computing user.
 
 
 ### Virtual Machine Configuration 
+
+
+
 •	**3 Ubuntu 18.04 VMs, one for cloud-core, two for edge-core.**   
 •	Open the port of 10000 and 10002 in the security group of the cloud-core machine and edge-core machine   
 •	16 GB RAM, 16 vCPUs, 128 GB storage.    
@@ -14,6 +21,9 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
 ####     Machine 3: Edge Worker Node
 
 ## Do the following steps in all the three machines for smoothly running the bash scripts:
+
+
+
 
 #### 1) Switch to root user:
      sudo -i
