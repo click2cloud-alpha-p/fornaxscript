@@ -45,7 +45,7 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
 #### 8) Verify the Edge cluster in 'Cloud Core Node' (Machine-1):
        kubectl get edgecluster
        
-   ![image](https://user-images.githubusercontent.com/95343388/151367806-e28dd3be-3cdd-4211-95b8-c3085dedc5c6.png)
+  ![image](https://user-images.githubusercontent.com/95343388/151367806-e28dd3be-3cdd-4211-95b8-c3085dedc5c6.png)
 
            
 #### 9) To see Cloudcore & Edgecore logs:
