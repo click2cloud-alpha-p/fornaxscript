@@ -30,7 +30,7 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
      
 #### 5) Now set the similar root password for all the machines
       passwd root
-     
+ 
    ![image](https://user-images.githubusercontent.com/95343388/151366134-be0a5fa0-9800-4d5c-981b-45c3fcf8b902.png)
    
    
