@@ -29,6 +29,7 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
      sudo -i
     
 #### 2) Edit the sshd file to permit copy files within the Machines:
+
      vi /etc/ssh/sshd_config
     
 #### 3) Remove comment '#' and modify the line 'PermitRootLogin yes' at line 32 and also modify line 56 to 'PasswordAuthentication yes' by removing comment in 'sshd_config' file:
@@ -43,7 +44,7 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
 
       passwd root
  
-   ![image](https://user-images.githubusercontent.com/95343388/152106558-56ccd888-328b-4215-b67d-0f31ad4b1e76.png)
+   ![image](https://user-images.githubusercontent.com/95343388/152161347-604d1b3a-3f27-44fe-9fef-8a3b2f8248bc.png)
 
    
 ### NOTE: 'prerequisite_package.sh' contains all the required packages for creating Kubernetes Cluster.
@@ -58,12 +59,14 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
    ![image](https://user-images.githubusercontent.com/95343388/152158030-2d2a26e9-71e9-4abd-8f04-0330424a32f6.png)
 
 #### 8) Verify the Edge cluster by running command in 'Cloud Core Node' (Machine-1):
+
        kubectl get edgecluster
        
   ![image](https://user-images.githubusercontent.com/95343388/151367806-e28dd3be-3cdd-4211-95b8-c3085dedc5c6.png)
 
            
 #### 9) To see Cloudcore & Edgecore logs:
+
        cd $HOME/go/src/github.com/fornax
        cat cloudcore.logs
        cat edgecore.logs
