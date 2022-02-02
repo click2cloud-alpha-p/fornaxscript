@@ -36,12 +36,15 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
    ![image](https://user-images.githubusercontent.com/95343388/151365629-77bf68bf-fce2-4303-8e7e-4fd68c0a7d0e.png)
    
 #### 4) Now reload the sshd service:
+
       systemctl reload sshd.service
      
 #### 5) Now set the similar root password for all the machines:
+
       passwd root
  
-   ![image](https://user-images.githubusercontent.com/95343388/151366134-be0a5fa0-9800-4d5c-981b-45c3fcf8b902.png)
+   ![image](https://user-images.githubusercontent.com/95343388/152106558-56ccd888-328b-4215-b67d-0f31ad4b1e76.png)
+
    
    
 #### 6) Run the Scripts:
