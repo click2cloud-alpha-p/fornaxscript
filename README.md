@@ -39,24 +39,25 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
 
       systemctl reload sshd.service
      
-#### 5) Now set the similar root password for all the machines:
+#### 5) Now set the root password for all the machines:
 
       passwd root
  
    ![image](https://user-images.githubusercontent.com/95343388/152106558-56ccd888-328b-4215-b67d-0f31ad4b1e76.png)
 
    
+### NOTE: 'prerequisite_package.sh' contains all the required packages for creating Kubernetes Cluster.
    
 #### 6) Run the Scripts:
-       sudo bash cloud-core.sh                 (Run in machine-1)
-       sudo bash edge-node-control-plane.sh    (Run in machine 2)  (run the script only after successfully running the machine-1 script)
-       sudo bash worker-node.sh                (Run in machine 3)  (run the script only after successfully running the machine-2 script)
+       sudo bash cloudcore_node.sh                  (Run in machine-1)
+       sudo bash edgecore_control_plane.sh          (Run in machine 2)  (run the script only after successfully running the machine-1 script)
+       sudo bash edge_worker_node.sh                (Run in machine 3)  (run the script only after successfully running the machine-2 script)
 
 #### 7) Input the Private IP's and Password of Machine 1, Machine 2 and Machine 3:
        
   ![image](https://user-images.githubusercontent.com/95343388/152107018-7a55eb0f-f5ea-4349-839b-08ed3fdcaecf.png)
 
-#### 8) Verify the Edge cluster in 'Cloud Core Node' (Machine-1):
+#### 8) Verify the Edge cluster by running command in 'Cloud Core Node' (Machine-1):
        kubectl get edgecluster
        
   ![image](https://user-images.githubusercontent.com/95343388/151367806-e28dd3be-3cdd-4211-95b8-c3085dedc5c6.png)
