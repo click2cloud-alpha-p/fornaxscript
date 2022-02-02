@@ -52,9 +52,9 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
        sudo bash edge-node-control-plane.sh    (Run in machine 2)  (run the script only after successfully running the machine-1 script)
        sudo bash worker-node.sh                (Run in machine 3)  (run the script only after successfully running the machine-2 script)
 
-#### 7) Input the Private IP's of Machine 1, Machine 2 and Machine 3:
+#### 7) Input the Private IP's and Password of Machine 1, Machine 2 and Machine 3:
        
-   ![image](https://user-images.githubusercontent.com/95343388/151502797-444c6570-8efe-45f4-9e0f-f8479c6c4a20.png)
+  ![image](https://user-images.githubusercontent.com/95343388/152107018-7a55eb0f-f5ea-4349-839b-08ed3fdcaecf.png)
 
 #### 8) Verify the Edge cluster in 'Cloud Core Node' (Machine-1):
        kubectl get edgecluster
