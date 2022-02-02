@@ -33,7 +33,7 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
     
 #### 3) Remove comment '#' and modify the line 'PermitRootLogin yes' at line 32 and also modify line 56 to 'PasswordAuthentication yes' by removing comment in 'sshd_config' file:
 
-   ![image](https://user-images.githubusercontent.com/95343388/151365629-77bf68bf-fce2-4303-8e7e-4fd68c0a7d0e.png)
+   ![image](https://user-images.githubusercontent.com/95343388/152106709-a9370a4d-8d82-4d66-8780-3a5e18fc0275.png)
    
 #### 4) Now reload the sshd service:
 
