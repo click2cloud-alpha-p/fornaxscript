@@ -55,7 +55,7 @@ The purpose of this document is to **automate setup of Cloud core and Edge core*
 
 #### 7) Input the Private IP's and Password of Machine 1, Machine 2 and Machine 3:
        
-   ![image](https://user-images.githubusercontent.com/95343388/152153562-e26d9ae9-6841-4c6d-ad5a-f4ce503b6a4a.png)
+   ![image](https://user-images.githubusercontent.com/95343388/152158030-2d2a26e9-71e9-4abd-8f04-0330424a32f6.png)
 
 #### 8) Verify the Edge cluster by running command in 'Cloud Core Node' (Machine-1):
        kubectl get edgecluster
