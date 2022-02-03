@@ -64,10 +64,15 @@
 
 #### 8) Verify the Edge cluster by running command in 'Cloud Core Node' (Machine-1):
 
+
        kubectl get edgecluster
+       
+       
        
   ![image](https://user-images.githubusercontent.com/95343388/152162045-d6143680-14eb-470c-89c6-6f4a21e54414.png)
 
+           
+           
            
 #### 9) To see Cloudcore & Edgecore logs:
 
