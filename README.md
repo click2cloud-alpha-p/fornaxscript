@@ -48,9 +48,19 @@
        sudo bash edgecore_control_plane.sh          (Run in machine 2)  (run the script only after successfully running the machine-1 script)
        sudo bash edge_worker_node.sh                (Run in machine 3)  (run the script only after successfully running the machine-2 script)
 
-#### 7) Input the Private IP's and Password of Machine 1, Machine 2 and Machine 3:
+#### 7) Input the Private IP's and Password of Machine 1, Machine 2 and Machine 3 :
+
+ **For Machine 1**
        
    ![image](https://user-images.githubusercontent.com/95343388/152158030-2d2a26e9-71e9-4abd-8f04-0330424a32f6.png)
+
+   
+ **For Machine 2**
+ 
+ 
+   ![image](https://user-images.githubusercontent.com/95343388/152291760-fffbe61f-3158-4f3f-b225-e805c608849c.png)
+
+   
 
 #### 8) Verify the Edge cluster by running command in 'Cloud Core Node' (Machine-1):
 
