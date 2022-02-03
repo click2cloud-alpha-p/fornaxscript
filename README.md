@@ -19,7 +19,7 @@
 
 
    
-#### 6) Run the Scripts:
+#### Run the Scripts:
 
 
        sudo bash cloudcore_node.sh                  (Run in machine-1)
@@ -27,7 +27,7 @@
        sudo bash edge_worker_node.sh                (Run in machine 3)  (run the script only after successfully running the machine-2 script)
 
 
-#### 7) Input the Private IP's and Password of Machine 1, Machine 2 and Machine 3 :
+#### Input the Private IP's and Password of Machine 1, Machine 2 and Machine 3 :
 
 
  **For Machine 1**
@@ -42,7 +42,7 @@
 
    
 
-#### 8) Verify the Edge cluster by running command in 'Cloud Core Node' (Machine-1):
+#### Verify the Edge cluster by running command in 'Cloud Core Node' (Machine-1):
 
 
        kubectl get edgecluster
@@ -54,7 +54,7 @@
            
            
            
-#### 9) To see Cloudcore & Edgecore logs:
+#### To see Cloudcore & Edgecore logs:
 
        cd $HOME/go/src/github.com/fornax
        cat cloudcore.logs
