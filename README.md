@@ -2,12 +2,6 @@
 
 
 
-### Abstract
-
-
-The purpose of this document is to **automate setup of Cloud core and Edge core** , and install kubernetes, GoLang, and so on **using bash scripts**. Running Cloud core and Edge core and deployed mission and task to Edge node. Improve the Edge computing. This Cloud and Edge design is derived from cloud end to edge end for Edge System Functional Description and the Setup Requirements Specification. The intended user of this program is the edge computing user.
-
-
 ### Virtual Machine Configuration 
 
 
